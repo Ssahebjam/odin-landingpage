@@ -2,11 +2,11 @@
 i will try to use my knowledg about html,css to solve this exercise from odin-project
 
 ## goals:
-    - responsive page
-    - using vanila css
-    - semantic html
+- responsive page
+- using vanila css
+- semantic html
 
 ## technologys used:
-    - html5 
-    - css3
-    - git
+- html5 
+- css3
+- git
