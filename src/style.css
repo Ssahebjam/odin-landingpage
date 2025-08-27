@@ -116,6 +116,29 @@
   }
 }
 
+@layer buttons {
+  .btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    background-color: var(--clr-cta);
+    color: white;
+  }
+
+  .btn-outline {
+    border: 2px solid white;
+  }
+}
+
+@layer spacer {
+  .py-5 {
+    padding-block: 5rem;
+  }
+}
+
 @layer layouts {
   .site-header .container {
     display: flex;
