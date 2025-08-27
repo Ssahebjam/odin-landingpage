@@ -86,13 +86,17 @@
       background-color: var(--clr-bg-gray);
       color: var(--clr-muted);
     }
-<<<<<<< HEAD
     
     .cta-section {
       background-color: var(--clr-cta);
       color: white;
     }
-=======
->>>>>>> 513222e6c9f4400b525787fa03e3c6aa5c8116d4
+  }
+}
+
+@layer container {
+  .container {
+    max-width: 1000px;
+    margin-inline: auto;
   }
 }
