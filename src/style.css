@@ -1,0 +1,62 @@
+@layer reset {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+  }
+
+  button {
+    font-family: inherit;
+    border: none;
+    background-color: transparent;
+  }
+}
+
+@layer font {
+  body {
+    font-family: "Roboto";
+    font-size: 1rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .hero-title {
+    font-size: 48px;
+    font-weight: 900;
+  }
+
+  .info-title {
+    font-size: 36px;
+    font-weight: 900;
+  }
+
+  .quote-text {
+    font-size: 36px;
+    font-style: italic;
+  }
+
+  @layer font-utils {
+    .fw-bold {
+      font-weight: bold;
+    }
+  }
+}
