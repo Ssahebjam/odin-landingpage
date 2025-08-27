@@ -70,6 +70,10 @@
     .fw-bold {
       font-weight: bold;
     }
+
+    .text-end {
+      text-align: end;
+    }
   }
 }
 
